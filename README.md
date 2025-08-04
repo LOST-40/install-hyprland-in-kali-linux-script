@@ -11,11 +11,17 @@ cd install-hyprland-in-kali-linux-script
 
 Make it executable:
 
-bash
 chmod +x install_hyprland_kali.sh
 
 Run it (with sudo if needed):
 
-bash
 ./install_hyprland_kali.sh
 
+Post-Installation:
+Reboot and select Hyprland from your display manager (SDDM/GDM/LightDM).
+
+If issues arise, check:
+
+bash
+
+journalctl -u hyprland -b  # Logs for Hyprland
