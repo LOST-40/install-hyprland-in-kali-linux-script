@@ -5,7 +5,9 @@ mad by LOST-40
 
 How to Use:
 
-Save the script as install_hyprland_kali.sh.
+git clone https://github.com/LOST-40/install-hyprland-in-kali-linux-script.git
+
+cd install-hyprland-in-kali-linux-script
 
 Make it executable:
 
